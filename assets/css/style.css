@@ -1,0 +1,396 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    font-family:Arial;
+    /* user-select:none; */
+}
+
+
+/* thanh dieu huong*/
+
+#header {
+    display:flex;
+    position:fixed;
+    top:0px;
+    height:auto;
+    width:100%;
+    background-color:#212529;
+    z-index:1;
+}
+
+.home{
+    flex:1;
+    height:30px;
+    padding:15px 30px;
+
+}
+
+#header .dieuhuong{
+    flex:5;
+}
+
+.home img{
+    width:auto;
+    height:40px;
+}
+.dieuhuong{
+    display:flex;
+    justify-content:flex-end;
+}
+.dieuhuong>div  {
+    padding:20px;
+    font-size:18px;
+}
+.supnav{
+    display:none;
+    position:absolute;
+    background-color:white; 
+    top:60px;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.supnav a{
+    color:#212529 !important;
+}
+
+.supnav div:hover {
+    background-color:rgba(0, 0, 0, 0.5)
+}
+.supnav div:hover .lichsu{
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.kienthuc:hover .supnav{
+    display:block;
+}
+
+.dieuhuong div a{
+    color:white;
+    opacity:0.6;
+    text-decoration:none;
+    line-height:30px;
+  
+}
+
+.dieuhuong div:hover>a{
+    opacity:1;
+}
+
+.dieuhuong .kienthuc{
+    margin-right:40px;
+}
+
+.dieuhuong .kienthu:hover .supnav {
+    display:block;
+}
+
+.supnav div{
+    padding:8px 40px 8px 20px;
+}
+
+/* thanh dieu huong*/
+
+
+/* gioi thieu Home*/
+#home{
+    height:1000px;
+    background-color:#212529 ;
+    display:flex;
+    padding-top:70px;
+    justify-content: center;
+    height:100%;
+}
+
+#home .gioithieu {
+    flex: 1 1 0%;
+    padding: 10% 0px 12% 16%;
+    text-align: justify;
+    font-size: 24px;
+    color:white;
+}
+
+#home .anh{
+    flex:1;
+    padding:50px;
+
+}
+
+#home .anh img{
+    width:60%;
+}
+/* gioi thieu Home*/
+
+/*contact*/
+#contact{
+    padding-top:70px;
+    height:520px;
+}
+
+.textcontact{
+    font-size:18px;
+    height:100px;
+    text-align:center;
+    padding-top:100px;
+    color:rgba(0, 0, 0, 0.5);
+    font-style:italic;
+}
+
+.headcontact{
+    letter-spacing:25px;
+    font-size:30px;
+    color:black;
+    font-style:normal;
+} 
+.body1{
+    padding:15px 0px 5px 0px;
+}
+
+.icon{
+    font-size:40px;
+    text-align:center;
+    margin-top:100px;
+}
+.icon a{
+    padding:30px;
+    text-decoration:none;
+    color:rgb(223, 42, 42);
+}
+
+.icon a:visited{
+    color:rgb(223, 42, 42);
+}
+/*End contact*/
+
+
+/*yeu*/
+#yeu{
+   padding-top:50px;
+   position:relative;
+   height:720px;
+}
+
+#yeu .imgyeu{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(16 18 57);
+
+}
+.imgyeu img{
+    box-shadow:1px 1px 30px;
+    padding:20px;
+}
+#yeu .textyeu{
+    width: 100%;
+    height:723px;
+    position:absolute;
+    top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:27px;
+    color:rgba(224, 247, 22, 0) ;
+    user-select:none;
+}
+/* .textyeu div div:hover {
+    color:rgb(255 86 86);
+    text-shadow:2px 2px 10px rgb(230, 124, 124);
+} */
+
+.textyeu .nut{
+    position: relative;
+    top: 243px;
+    font-size: 73px;
+    right: -5px;
+    transform: rotate(-7deg);
+}
+
+.textyeu .nut:hover{
+    color:rgb(255 86 86);
+    text-shadow:2px 2px 10px rgb(230, 124, 124);
+}
+
+.open{
+    color:rgb(255 86 86) !important ;
+    text-shadow:2px 2px 10px rgb(230, 124, 124);
+}
+.hoang{
+    display:flex;
+    padding-right:25px;
+    padding-bottom:150px;
+}
+
+.kien{
+    display: flex;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+
+.tuong{
+    display: flex;
+    padding-top: 160px;
+    padding-right: 60px;
+}
+
+.nhi{
+    display:flex;
+    padding-top:40px;
+    padding-right:-6px;
+    width:55px;
+}
+
+.tim1 {
+    position: relative;
+    top: -116px;
+}
+.tim2 {
+    position: relative;
+    top: -113px;
+    right: 264px;
+}
+
+.tim3 {
+    position: relative;
+    top: 2px;
+    right: 239px;
+}
+
+.tim4 {
+    position: relative;
+    top: -26px;
+    right: 465px;
+}
+
+.tim5 {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
+
+
+.loitotinh {
+    position: absolute;
+    top: 340px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255 86 86);
+    font-size: 23px;
+    text-shadow:0px 0px 10px rgb(245, 44, 44);
+}
+.loitotinh div{
+    padding:10px 0px;
+}
+.traloi{
+    display:flex;
+    justify-content:center;
+    
+}
+.yes{
+    border:1px solid rgb(251, 171, 171);
+    padding:10px !important;
+    margin:0px 20px;
+    display:block;
+    background-color:rgba(0,0,0,0) ;
+    color: rgb(255 86 86);
+    font-size: 23px;
+    text-shadow:0px 0px 10px rgb(245, 44, 44);
+    cursor:pointer;
+    user-select: none;
+    
+}
+.no{
+    border:1px solid rgb(254, 159, 159);
+    padding:10px !important;
+    margin:0px 20px;
+    user-select: none;
+}
+
+.no:hover{
+    color:rgba(0,0,0,0);
+    border:none;
+    text-shadow:none;
+}
+.yes:hover{
+    color:aquamarine;
+    border:1px solid aquamarine;
+
+}
+.close{
+    display:none;
+}
+
+/*End yeu*/
+/*dulich*/
+#dulich1 {
+    background-color: #212529;
+    height: auto;
+    text-shadow: 0px 0px 10px #63ffa9eb;
+    color: white;
+}
+.textdulich{
+    
+    text-align:center;
+    padding:75px 100px 20px 100px;
+    font-size:26px;
+}
+.bodytextdulich{
+    text-align:justify;
+    padding:10px 100px 0px 100px;
+    font-size:20px;
+    display:block;
+    text-align-last:center;
+}
+.dulich2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.dulich2>div
+{
+    width:20%;
+}
+.dulich2 img{
+    width:100%;
+    box-shadow:0px 0px 20px #37bcf2;
+}
+.dulich2 div div{
+    text-align:center;
+    padding:20px 0px;
+    font-size:20px;
+   
+
+}
+
+/*End dulich*/
+
+/*footer*/
+#footer{
+    height:auto;
+    background-color:#212529;
+    display:flex;
+    justify-content:center;
+    padding-bottom:40px;
+    padding-top:60px;
+}
+#footer .footertext{
+    color:white;
+    border-top:1px solid ;
+    width:82%;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 0px;
+}
+
+#footer .icon2 a{
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+    padding:10px ;
+}
+
+/*end footer*/
+

@@ -1,0 +1,24 @@
+/*pc*/
+
+@media(min-width:1024px)
+{
+}
+
+/* mobile*/
+
+@media (max-width:740px)
+{
+    html{
+    display:none;
+}
+}
+
+/*table*/
+
+@media(min-width:740px) and (max-width:1024px)
+{
+    html{
+    display:none;
+   }
+}
+
